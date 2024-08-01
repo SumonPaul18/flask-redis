@@ -14,3 +14,15 @@ Before you get started, you must understand Docker. You also need the following 
   - Vs Code for code editing.
   - Python installed.
   - Docker Desktop set up.
+
+#### Containerizing the Redis Flask application
+We will use Docker Compose to containerize the Redis Flask application. With Docker Compose, you create a YAML file to add and configure your application's containers as services. Our Docker Compose file will have two services: Flask Service and Redis Service. When creating the Docker Compose file, the Flask service will depend on the Redis service.
+
+####
+    git clone https://github.com/SumonPaul18/flask-redis.git
+    cd flask-redis
+    docker-compose up
+####
+    docker compose ps
+####
+    docker compose down
