@@ -1,6 +1,6 @@
 #
 # Containerize a Redis Flask Application using Docker Compose
-#
+
   - <b>Flask</b> is an open-source Python micro framework for building web applications. It is implemented on implemented on Werkzeug and Jinja2. 
   - <b>Redis</b> is a vibrant open source in-memory data store platform. Developers use Redis as a message broker, database, streaming engine and for application caching.
 
@@ -11,6 +11,6 @@ In this tutorial, We will build a sample Python Flask application and implement 
 #### Prerequisites
 Before you get started, you must understand Docker. You also need the following set up in your working machine:
 
-Vs Code for code editing.
-Python installed.
-Docker Desktop set up.
+  - Vs Code for code editing.
+  - Python installed.
+  - Docker Desktop set up.
