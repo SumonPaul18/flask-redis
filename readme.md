@@ -21,7 +21,7 @@ We will use Docker Compose to containerize the Redis Flask application. With Doc
 ####
     git clone https://github.com/SumonPaul18/flask-redis.git
     cd flask-redis
-    docker-compose up
+    docker compose up -d
 ####
     docker compose ps
 ####
